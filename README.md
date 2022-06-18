@@ -9,22 +9,22 @@
 ## For Shell, run:
 ### create, update, delete
 ```sh
-    ./run.sh
+./run.sh
 ```
 
 ---
 ## For Bash, run: 
 ### create stack
 ```bat
-    ./create.bat <stack_name> <template_file> <parameters_file>
+./create.bat <stack_name> <template_file> <parameters_file>
 ``` 
 ### update stack 
 ```bat
-    ./update.bat <stack_name> <template_file> <parameters_file>
+./update.bat <stack_name> <template_file> <parameters_file>
 ```
 ### delete stack
 ```bat
-    ./delete.bat <stack_name>
+./delete.bat <stack_name>
 ```
 
 ---
