@@ -2,18 +2,30 @@
  Deploying web servers for a highly available web app using AWS CloudFormation.
 
 ---
-## Diagram
+## Infrastructure Diagram
 ![Project Infrastructure Diagram](Udagram%20AWS%20Infra.png)
 
 ---
-## Shell: use
-    ./create-update-stack.sh
+## For Shell, run:
+### create, update, delete
+```sh
+    ./run.sh
+```
 
 ---
-## Bash: use
+## For Bash, run: 
+### create stack
+```bat
     ./create.bat <stack_name> <template_file> <parameters_file>
+``` 
+### update stack 
+```bat
     ./update.bat <stack_name> <template_file> <parameters_file>
+```
+### delete stack
+```bat
     ./delete.bat <stack_name>
+```
 
 ---
 ## Credits
